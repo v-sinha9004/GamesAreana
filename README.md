@@ -16,7 +16,7 @@ This app is an aggregator for different video games developed for different plat
 - CSS
   * BEM methodology
   * SASS
--Webpack  
+- Webpack  
 
 ## Getting started
 
