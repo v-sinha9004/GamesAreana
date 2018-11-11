@@ -1,61 +1,42 @@
 <h1>Games Arena</h1>
 
-## Basic Overview  [Live Demo](https://react-shopping-cart-67954.firebaseapp.com/)
+## Basic Overview 
 
-This simple shopping cart prototype shows how React components and Redux can be used to build a
-friendly user experience with instant visual updates and scaleable code in ecommerce applications. 
-
+This app is an aggregator for different video games developed for different platforms.
 
 #### Features
-- Add and remove products from the floating cart
-- Sort products by highest to lowest and lowest to highest price
-- Filter products by available sizes
-- Products persist in floating cart even after page reloads
-- Responsive design for desktop, tablets and mobile
-- Product stoppers for free shipping
+- A feature to search(via name).
+- Sort feature(to filter through 'score' in ascending and desending order).
+- Number of results found by searching.
+- Autocomplete feature to be soon implemented in search input.
 
 #### Using
 - React
-  * Redux - for application state management
-- Nodejs
-  * Express CORS Middleware
-  * Nodemon - for watching for server changes
-- Axios - for promise HTTP requests
-- Native local storage API - for product persistence in floating cart
+- Use of Web API to fetch games details.
 - CSS
   * BEM methodology
   * SASS
+-Webpack  
 
 ## Getting started
 
 #### Requirements
 
-- Node.js
 - NPM
+- YARN
 
 ### Package installation
 
 Execute the following command on your terminal to install all the needed packages:
 ``` bash
-npm install
+yarn install
 ```
-
-### Run the API Server
-
-Start the server using:
-``` bash
-npm run server
-```
-
-When done, the products API will be running on  `http://localhost:8001/api/products`
-
-keep it running on a terminal and go to the next step.
 
 ### Start the React App
 
 just execute the following command and thats it! :D
 ``` bash
-npm start
+yarn run dev-server
 ```
 
-The application will start automatically in your browser on `http://localhost:3000`
+The application will start automatically in your browser on `http://localhost:8080`
